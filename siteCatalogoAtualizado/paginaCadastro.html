@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Login pagina de carros |</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="firstPage">
+    <header>
+        <div class="text-logo"><span style="color: rgb(7, 7, 155);">Dev</span><span style="font-family:'Montserrat', sans-serif; font-weight: 700;">JoazinL2R2</span></div>
+        <div class="opcoesHeader">
+            <a href="index.html"><h3>Inicio</h3></a>
+            <a href="#catalogo"><h3>Catalogo</h3></a>
+            <a href="#sobreNos"><h3>About</h3></a>
+            <div id="fade" class="hide">
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Cadastro</h3><br><br>
+            <div class="cadastro">
+                <form action="http://localhost:3000/salvarDados" method="post">
+                    <div class="inputs">
+                        <label for="">Nome</label><br>
+                        <input type="text" name="cadastroNome"><br>
+                    </div>
+                    <div class="inputs">
+                        <label for="">CPF</label><br>
+                        <input type="number" name="CPFcadastro"><br>
+                    </div>
+                    <div class="inputs">
+                        <label for="">Aniversario</label><br>
+                        <input type="date" name="dtNascimentoCadastro"><br>
+                    </div>
+                    <div class="inputs">
+                        <label for="">RG</label><br>
+                        <input type="number" name="RGcadastro"><br>
+                    </div>
+                    <div class="inputs">
+                        <label for="">CEP</label><br>
+                        <input type="number" name="CEPcadastro"><br>
+                    </div>
+                    <div class="inputs">
+                        <label for="">Endereço</label><br>
+                        <input type="text" name="enderecoCadastro"><br>
+                    </div>
+                    <button>Adicionar informações de pagamento</button><br>
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <div class="footer">
+        <div class="conteudoFooter">
+            <h3>Company</h3><br>
+            <a href="#">about</a><br>
+            <a href="#">Contact</a>
+        </div>
+        <div class="conteudoFooter">
+            <h3>Rental</h3><br>
+            <a href="#">Self-Drive</a><br>
+            <a href="#">Cheuffen-Driven</a><br>
+            <a href="#">Help</a>
+        </div>
+        <div class="conteudoFooter">
+            <h3>Stay conected</h3><br>
+            <a href="#"><img src="images/facebook.png" alt="Logo"></a>
+            <a href="#"><img src="images/instagram.png" alt="Logo"></a>
+        </div>
+        <div class="conteudoFooter">
+            <h3>Contact Us</h3><br>
+            <p>+xx xx xxxx-xxxx</p><br>
+            <p>contato@contato.com</p><br>
+            <p>Rua xxx xxx xxx</p>
+        </div>
+        
+    </div>
+    <footer>
+        &copy;Dev JoazinL2R2
+    </footer>
+</div>
+</div>
+
+</body>
+</html>
